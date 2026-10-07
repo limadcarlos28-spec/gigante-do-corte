@@ -6,7 +6,7 @@ import {
   minutesToTime,
   addMinutesToTime,
   intervalsOverlap
-} from '../src/utils/dateUtils.js';
+} from ./dateUtils.js
 
 export interface AvailableSlotInfo {
   time: string;
