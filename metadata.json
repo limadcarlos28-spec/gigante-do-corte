@@ -1,0 +1,7 @@
+{
+  "name": "Gigante do Corte - Agendamento",
+  "description": "Sistema profissional de agendamento online e gestão para a barbearia Gigante do Corte.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
