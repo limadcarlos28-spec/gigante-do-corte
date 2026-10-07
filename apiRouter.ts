@@ -6,7 +6,7 @@ import {
   getTomorrowDateString,
   addMinutesToTime,
   hasAppointmentTimeOccurred
-'./dateUtils.js'
+} from './dateUtils.js';
 export const apiRouter = Router();
 
 // ==========================================
