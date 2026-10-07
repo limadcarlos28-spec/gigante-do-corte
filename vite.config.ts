@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import express from 'express';
 import path from 'path';
 import { defineConfig, Plugin } from 'vite';
-import { apiRouter } from './server/apiRouter.ts';
+import { apiRouter } from './apiRouter.ts';
 
 function apiServerPlugin(): Plugin {
   return {
