@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { UserCheck, Phone, MessageSquare, DollarSign, Calendar, Search, RefreshCw } from 'lucide-react';
-import { api, ClientSummary } from '../../services/api.ts';
-import { formatDatePtBR, formatCurrency, formatPhone, getWhatsAppLink } from '../../utils/dateUtils.ts';
+import { api, ClientSummary } from './api.ts';
+import { formatDatePtBR, formatCurrency, formatPhone, getWhatsAppLink } from './dateUtils.ts';
 
 export const ClientsView: React.FC = () => {
   const [clients, setClients] = useState<ClientSummary[]>([]);

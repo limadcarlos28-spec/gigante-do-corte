@@ -1,7 +1,7 @@
 import React from 'react';
 import { Scissors, Sparkles, Clock, Check } from 'lucide-react';
-import { Service } from '../../types/barbershop.ts';
-import { formatCurrency } from '../../utils/dateUtils.ts';
+import { Service } from './barbershop.ts';
+import { formatCurrency } from './dateUtils.ts';
 
 interface ServiceSelectorProps {
   services: Service[];

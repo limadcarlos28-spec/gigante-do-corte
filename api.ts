@@ -7,7 +7,7 @@ import {
   Appointment,
   AppointmentStatus,
   BarbershopSettings
-} from '../types/barbershop.ts';
+} from './barbershop.ts';
 
 const API_BASE = '/api';
 

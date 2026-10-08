@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { UserCheck, Phone, FileText, CheckCircle2, ShieldCheck, Loader2 } from 'lucide-react';
-import { Service, Professional } from '../../types/barbershop.ts';
-import { formatDatePtBR, formatCurrency, addMinutesToTime } from '../../utils/dateUtils.ts';
+import { Service, Professional } from './barbershop.ts';
+import { formatDatePtBR, formatCurrency, addMinutesToTime } from './dateUtils.ts';
 
 interface ClientFormProps {
   service: Service;

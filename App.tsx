@@ -13,7 +13,7 @@ import {
   Loader2
 } from 'lucide-react';
 import { api, BootstrapResponse } from './api.ts';
-import { Service, Professional, BarbershopSettings, OperatingHoursConfig, Appointment } from './types/barbershop.ts';
+import { Service, Professional, BarbershopSettings, OperatingHoursConfig, Appointment } from './barbershop.ts';
 import { Navbar } from './Navbar.tsx';
 import { BookingWizard } from './BookingWizard.tsx';
 import { AdminLayout, AdminTab } from './AdminLayout.tsx';

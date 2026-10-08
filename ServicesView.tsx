@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Scissors, Plus, Edit2, Trash2, Clock, Check, X, Loader2 } from 'lucide-react';
-import { Service } from '../../types/barbershop.ts';
-import { api } from '../../services/api.ts';
-import { formatCurrency } from '../../utils/dateUtils.ts';
+import { Service } from './barbershop.ts';
+import { api } from './api.ts';
+import { formatCurrency } from './dateUtils.ts';
 
 interface ServicesViewProps {
   services: Service[];

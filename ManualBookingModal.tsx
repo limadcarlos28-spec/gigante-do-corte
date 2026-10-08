@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { PlusCircle, X, Clock, Calendar, User, Scissors, Phone, Loader2 } from 'lucide-react';
-import { Service, Professional } from '../../types/barbershop.ts';
-import { api } from '../../services/api.ts';
-import { getTodayDateString, getTomorrowDateString } from '../../utils/dateUtils.ts';
+import { Service, Professional } from './barbershop.ts';
+import { api } from './api.ts';
+import { getTodayDateString, getTomorrowDateString } from './dateUtils.ts';
 
 interface ManualBookingModalProps {
   isOpen: boolean;

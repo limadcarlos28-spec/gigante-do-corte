@@ -1,6 +1,6 @@
 import express from 'express';
 import path from 'path';
-import { apiRouter } from './server/apiRouter.ts';
+import { apiRouter } from './apiRouter.ts';
 
 const app = express();
 const port = process.env.PORT || 3000;

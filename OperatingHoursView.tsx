@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Clock, Calendar, Plus, Trash2, Check, AlertCircle, Loader2 } from 'lucide-react';
-import { OperatingHoursConfig, Blockout, Professional } from '../../types/barbershop.ts';
-import { api } from '../../services/api.ts';
-import { formatDatePtBR, getTodayDateString } from '../../utils/dateUtils.ts';
+import { OperatingHoursConfig, Blockout, Professional } from './barbershop.ts';
+import { api } from './api.ts';
+import { formatDatePtBR, getTodayDateString } from './dateUtils.ts';
 
 interface OperatingHoursViewProps {
   operatingHours: OperatingHoursConfig;

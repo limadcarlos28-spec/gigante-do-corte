@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { User, Plus, Edit2, Trash2, Phone, Star, Check, X, Loader2, Upload, Camera } from 'lucide-react';
-import { Professional } from '../../types/barbershop.ts';
-import { api } from '../../services/api.ts';
+import { Professional } from './barbershop.ts';
+import { api } from './api.ts';
 
 interface ProfessionalsViewProps {
   professionals: Professional[];

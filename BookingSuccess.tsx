@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckCircle, Calendar, MessageSquare, PlusCircle, Clock, User, Scissors } from 'lucide-react';
-import { Appointment, BarbershopSettings } from '../../types/barbershop.ts';
-import { formatDatePtBR, formatCurrency, getWhatsAppLink } from '../../utils/dateUtils.ts';
+import { Appointment, BarbershopSettings } from './barbershop.ts';
+import { formatDatePtBR, formatCurrency, getWhatsAppLink } from './dateUtils.ts';
 
 interface BookingSuccessProps {
   appointment: Appointment;
