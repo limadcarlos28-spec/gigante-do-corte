@@ -1,4 +1,4 @@
-import { dbInstance } from './db.js';
+import { dbInstance } from './db.ts';
 import {
   getDayOfWeekKey,
   getTodayDateString,
@@ -6,7 +6,7 @@ import {
   minutesToTime,
   addMinutesToTime,
   intervalsOverlap
-} from './dateUtils.js';
+} from './dateUtils.ts';
 export interface AvailableSlotInfo {
   time: string;
   endTime: string;

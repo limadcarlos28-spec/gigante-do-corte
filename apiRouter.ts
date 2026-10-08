@@ -1,12 +1,12 @@
 import { Router, Request, Response } from 'express';
-import { dbInstance } from './db.js';
-import { getAvailableSlotsForDate, validateAndCreateAppointment } from './scheduler.js';
+import { dbInstance } from './db.ts';
+import { getAvailableSlotsForDate, validateAndCreateAppointment } from './scheduler.ts';
 import {
   getTodayDateString,
   getTomorrowDateString,
   addMinutesToTime,
   hasAppointmentTimeOccurred
-} from './dateUtils.js';
+} from './dateUtils.ts';
 export const apiRouter = Router();
 
 // ==========================================

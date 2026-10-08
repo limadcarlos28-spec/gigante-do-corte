@@ -14,8 +14,8 @@ import {
   RefreshCw,
   Plus
 } from 'lucide-react';
-import { Appointment, AppointmentStatus, Professional } from '../../types/barbershop.ts';
-import { api } from '../../services/api.ts';
+import { Appointment, AppointmentStatus, Professional } from './barbershop.ts';
+import { api } from './api.ts';
 import {
   formatDatePtBR,
   formatCurrency,
@@ -26,7 +26,7 @@ import {
   isToday,
   isTomorrow,
   hasAppointmentTimeOccurred
-} from '../../utils/dateUtils.ts';
+} from './dateUtils.ts';
 
 interface AgendaViewProps {
   professionals: Professional[];

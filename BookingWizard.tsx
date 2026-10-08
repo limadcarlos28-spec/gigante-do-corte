@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Service, Professional, Appointment, BarbershopSettings } from '../../types/barbershop.ts';
-import { getTodayDateString } from '../../utils/dateUtils.ts';
+import { Service, Professional, Appointment, BarbershopSettings } from './barbershop.ts';
+import { getTodayDateString } from './dateUtils.ts';
 import { ServiceSelector } from './ServiceSelector.tsx';
 import { ProfessionalSelector } from './ProfessionalSelector.tsx';
 import { DateSelector } from './DateSelector.tsx';
 import { TimeSlotSelector } from './TimeSlotSelector.tsx';
 import { ClientForm } from './ClientForm.tsx';
 import { BookingSuccess } from './BookingSuccess.tsx';
-import { api } from '../../services/api.ts';
+import { api } from './api.ts';
 import { Check, ChevronLeft, ChevronRight, Scissors } from 'lucide-react';
 
 interface BookingWizardProps {

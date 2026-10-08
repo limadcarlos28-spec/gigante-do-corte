@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Clock, Sun, Sunset, Moon, AlertCircle, Loader2 } from 'lucide-react';
-import { api } from '../../services/api.ts';
-import { formatDatePtBR, timeToMinutes } from '../../utils/dateUtils.ts';
+import { api } from './api.ts';
+import { formatDatePtBR, timeToMinutes } from './dateUtils.ts';
 
 interface TimeSlotSelectorProps {
   selectedDate: string;

@@ -6,7 +6,7 @@ import {
   getTomorrowDateString,
   parseDateString,
   getDayOfWeekKey
-} from '../../utils/dateUtils.ts';
+} from './dateUtils.ts';
 
 interface DateSelectorProps {
   selectedDate: string; // YYYY-MM-DD

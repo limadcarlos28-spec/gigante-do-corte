@@ -1,6 +1,6 @@
 import React from 'react';
 import { Scissors, Shield, Calendar, Clock, MapPin } from 'lucide-react';
-import { BarbershopSettings } from '../types/barbershop.ts';
+import { BarbershopSettings } from './barbershop.ts';
 
 interface NavbarProps {
   settings?: BarbershopSettings;

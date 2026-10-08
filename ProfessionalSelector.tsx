@@ -1,6 +1,6 @@
 import React from 'react';
 import { User, Check, Star } from 'lucide-react';
-import { Professional } from '../../types/barbershop.ts';
+import { Professional } from './barbershop.ts';
 
 interface ProfessionalSelectorProps {
   professionals: Professional[];
