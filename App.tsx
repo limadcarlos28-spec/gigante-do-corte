@@ -14,20 +14,21 @@ import {
 } from 'lucide-react';
 import { api, BootstrapResponse } from './services/api.ts';
 import { Service, Professional, BarbershopSettings, OperatingHoursConfig, Appointment } from './types/barbershop.ts';
-import { Navbar } from './components/Navbar.tsx';
-import { BookingWizard } from './components/PublicBooking/BookingWizard.tsx';
-import { AdminLayout, AdminTab } from './components/Admin/AdminLayout.tsx';
-import { AdminLoginModal } from './components/Admin/AdminLoginModal.tsx';
-import { DashboardView } from './components/Admin/DashboardView.tsx';
-import { AgendaView } from './components/Admin/AgendaView.tsx';
-import { ServicesView } from './components/Admin/ServicesView.tsx';
-import { ProfessionalsView } from './components/Admin/ProfessionalsView.tsx';
-import { OperatingHoursView } from './components/Admin/OperatingHoursView.tsx';
-import { ClientsView } from './components/Admin/ClientsView.tsx';
-import { SettingsView } from './components/Admin/SettingsView.tsx';
-import { ManualBookingModal } from './components/Admin/ManualBookingModal.tsx';
-import { TomorrowTestModal } from './components/Admin/TomorrowTestModal.tsx';
-import { ProfessionalPanel } from './components/Professional/ProfessionalPanel.tsx';
+import { Navbar } from './Navbar.tsx';
+import { BookingWizard } from './BookingWizard.tsx';
+import { AdminLayout, AdminTab } from './AdminLayout.tsx';
+import { AdminLoginModal } from './AdminLoginModal.tsx';
+import { DashboardView } from './DashboardView.tsx';
+import { AgendaView } from './AgendaView.tsx';
+import { ServicesView } from './ServicesView.tsx';
+  
+import { ProfessionalsView } from './ProfessionalsView.tsx';
+import { OperatingHoursView } from ./OperatingHoursView.tsx;
+import { ClientsView } from ./ClientsView.tsx;
+import { SettingsView } from ./SettingsView.tsx;
+import { ManualBookingModal } from ./ManualBookingModal.tsx;
+import { TomorrowTestModal } from ./TomorrowTestModal.tsx;
+import { ProfessionalPanel } from ./ProfessionalPanel.tsx;
 import { formatPhone, getWhatsAppLink } from './utils/dateUtils.ts';
 
 export default function App() {
