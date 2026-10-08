@@ -17,8 +17,8 @@ import {
   ShieldCheck,
   CalendarDays
 } from 'lucide-react';
-import { Appointment, Professional, AppointmentStatus } from '../../types/barbershop.ts';
-import { api } from '../../services/api.ts';
+import { Appointment, Professional, AppointmentStatus } from './barbershop.ts';
+import { api } from './api.ts';
 import {
   formatDatePtBR,
   formatPhone,
@@ -28,8 +28,7 @@ import {
   isToday,
   isTomorrow,
   hasAppointmentTimeOccurred
-} from '../../utils/dateUtils.ts';
-
+} from './dateUtils.ts';
 interface ProfessionalPanelProps {
   professionals: Professional[];
   currentProfessionalId?: string;
