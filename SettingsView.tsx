@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Settings, Lock, Check, Building, Phone, MapPin, Loader2 } from 'lucide-react';
-import { BarbershopSettings } from '../../types/barbershop.ts';
-import { api } from '../../services/api.ts';
-
+import { BarbershopSettings } from './barbershop.ts';
+import { api } from './api.ts';
 interface SettingsViewProps {
   settings: BarbershopSettings;
   onRefreshSettings: () => void;
