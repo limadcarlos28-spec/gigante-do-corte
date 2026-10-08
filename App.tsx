@@ -23,12 +23,12 @@ import { AgendaView } from './AgendaView.tsx';
 import { ServicesView } from './ServicesView.tsx';
   
 import { ProfessionalsView } from './ProfessionalsView.tsx';
-import { OperatingHoursView } from ./OperatingHoursView.tsx;
-import { ClientsView } from ./ClientsView.tsx;
-import { SettingsView } from ./SettingsView.tsx;
-import { ManualBookingModal } from ./ManualBookingModal.tsx;
-import { TomorrowTestModal } from ./TomorrowTestModal.tsx;
-import { ProfessionalPanel } from ./ProfessionalPanel.tsx;
+import { OperatingHoursView } from './OperatingHoursView.tsx';
+import { ClientsView } from './ClientsView.tsx';
+import { SettingsView } from './SettingsView.tsx';
+import { ManualBookingModal } from './ManualBookingModal.tsx';
+import { TomorrowTestModal } from './TomorrowTestModal.tsx';
+import { ProfessionalPanel } from './ProfessionalPanel.tsx';
 import { formatPhone, getWhatsAppLink } from './utils/dateUtils.ts';
 
 export default function App() {
