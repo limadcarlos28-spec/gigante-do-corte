@@ -10,10 +10,9 @@ import {
   Calendar,
   Check
 } from 'lucide-react';
-import { api } from '../../services/api.ts';
-import { getTodayDateString, getTomorrowDateString, formatDatePtBR } from '../../utils/dateUtils.ts';
-import { Professional, Service } from '../../types/barbershop.ts';
-
+import { api } from './api.ts';
+import { getTodayDateString, getTomorrowDateString, formatDatePtBR } from './dateUtils.ts';
+import { Professional, Service } from './barbershop.ts';
 interface TomorrowTestModalProps {
   isOpen: boolean;
   onClose: () => void;
