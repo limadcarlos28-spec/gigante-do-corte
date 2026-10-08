@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Shield, Lock, X, KeyRound, AlertCircle, Loader2 } from 'lucide-react';
-import { api } from '../../services/api.ts';
-
+import { api } from './api.ts';
 interface AdminLoginModalProps {
   isOpen: boolean;
   onClose: () => void;
