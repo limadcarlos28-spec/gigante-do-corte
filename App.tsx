@@ -12,7 +12,7 @@ import {
   AlertCircle,
   Loader2
 } from 'lucide-react';
-import { api, BootstrapResponse } from './services/api.ts';
+import { api, BootstrapResponse } from './api.ts';
 import { Service, Professional, BarbershopSettings, OperatingHoursConfig, Appointment } from './types/barbershop.ts';
 import { Navbar } from './Navbar.tsx';
 import { BookingWizard } from './BookingWizard.tsx';
@@ -29,8 +29,7 @@ import { SettingsView } from './SettingsView.tsx';
 import { ManualBookingModal } from './ManualBookingModal.tsx';
 import { TomorrowTestModal } from './TomorrowTestModal.tsx';
 import { ProfessionalPanel } from './ProfessionalPanel.tsx';
-import { formatPhone, getWhatsAppLink } from './utils/dateUtils.ts';
-
+import { formatPhone, getWhatsAppLink } from './dateUtils.ts';
 export default function App() {
   const [data, setData] = useState<BootstrapResponse | null>(null);
   const [loading, setLoading] = useState(true);
