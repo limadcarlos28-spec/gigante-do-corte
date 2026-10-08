@@ -11,8 +11,8 @@ import {
   MessageSquare,
   Scissors
 } from 'lucide-react';
-import { api, DashboardStats } from '../../services/api.ts';
-import { formatDatePtBR, formatCurrency, formatPhone, getWhatsAppLink, getTodayDateString, getTomorrowDateString } from '../../utils/dateUtils.ts';
+import { api, DashboardStats } from './api.ts'
+import { formatDatePtBR, formatCurrency, formatPhone, getWhatsAppLink, getTodayDateString, getTomorrowDateString } from './dateUtils.ts';
 import { AdminTab } from './AdminLayout.tsx';
 
 interface DashboardViewProps {
