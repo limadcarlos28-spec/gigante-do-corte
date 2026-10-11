@@ -292,8 +292,8 @@ export default function App() {
               <AgendaView
                 professionals={professionals}
                 onOpenManualBooking={() => setIsManualBookingOpen(true)}
-                initialFilter="tomorrow"
-              />
+                initialFilter="today"
+      
             )}
 
             {adminTab === 'services' && (
