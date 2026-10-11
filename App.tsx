@@ -293,7 +293,7 @@ export default function App() {
                 professionals={professionals}
                 onOpenManualBooking={() => setIsManualBookingOpen(true)}
                 initialFilter="today"
-      
+      />
             )}
 
             {adminTab === 'services' && (
