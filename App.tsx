@@ -229,7 +229,7 @@ export default function App() {
                 <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 mt-6 pt-5 border-t border-zinc-800/80 text-xs text-zinc-300">
                   <div className="flex items-center gap-1.5">
                     <Clock className="w-4 h-4 text-amber-400" />
-                    <span>Seg a Sáb: 09h às 21h</span>
+                    <span>Seg a Sáb:13h às 21h</span>
                   </div>
 
                   <div className="flex items-center gap-1.5">
